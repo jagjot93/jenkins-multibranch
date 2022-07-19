@@ -5,7 +5,7 @@ stages{
 stage ("Hello"){
 steps {
 echo "hello world"
-date
+sh 'date'
 }
 }
 }
